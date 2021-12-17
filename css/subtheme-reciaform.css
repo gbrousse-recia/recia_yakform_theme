@@ -1,0 +1,72 @@
+/* theme */
+*{
+  --r-blue: #2F3291;
+  --r-green: #8E9120;
+  --r-grey:#4a5568;
+  --r-light-grey:#e2e8f0;
+  --r-dark-grey: #4a5568;
+}
+
+body {
+  --c-primary: var(--r-blue);
+  --c-bd-primary: var(--r-blue);
+  --c-bd-page: var(--r-blue);
+
+  /* header */
+  --c-bg-navbar: var(--g1);
+  --c-txt-navbar: var(--r-blue);
+
+  --c-bg-navbar-dd: transparent;
+  --c-txt-navbar-dd: var(--r-grey);
+  --c-bg-navbar-dd-active: var(--r-light-grey);
+
+  /* BG */
+  --c-bg: var(--r-light-grey);
+
+  /* Titres */
+  --c-title: var(--r-dark-grey);
+
+  /* icon */
+  --c-warning:var(--r-blue);
+
+  /* alert */
+  --c-bg-accent: var(--r-blue);
+  --c-text-accent: var(--r-light-grey);
+}
+
+body #highlighted .big-title {
+  font-size: 0;
+}
+
+body #highlighted .big-title::before {
+  content: "Recia";
+  font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
+  font-size: 42px;
+  color: var(--r-blue);
+}
+body #highlighted .big-title::after {
+  content: "forms";
+  font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
+  font-size: 42px;
+  color: var(--r-green);
+}
+
+.front #main-wrapper #main, .front #footer-wrapper #footer {
+  margin: 1rem auto 1rem;
+  width: auto;
+  max-width: 800px;
+}
+
+.front #main-wrapper #main{
+  margin: 2rem auto 1rem;
+  width: auto;
+  max-width: 800px;
+  background: var(--c-bg-lite);
+  padding: 1rem 2rem;
+  border-top: 5px solid var(--c-bd-page);
+}
+
+#homeback{
+  display: flex;
+  justify-content: end;
+}
