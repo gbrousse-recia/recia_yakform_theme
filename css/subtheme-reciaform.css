@@ -70,3 +70,9 @@ body #highlighted .big-title::after {
   display: flex;
   justify-content: end;
 }
+
+.panel-separator{
+  display:block;
+  margin: 10px auto;
+  border-bottom: 5px solid var(--c-bg-lite2);
+}
