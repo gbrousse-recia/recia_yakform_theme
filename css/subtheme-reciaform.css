@@ -7,6 +7,10 @@
   --r-dark-grey: #4a5568;
 }
 
+html,body{
+  height:100%;
+}
+
 body {
   --c-primary: var(--r-blue);
   --c-bd-primary: var(--r-blue);
