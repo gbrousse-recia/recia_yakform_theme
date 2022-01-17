@@ -38,6 +38,15 @@ body {
   --c-text-accent: var(--r-light-grey);
 }
 
+
+
+html body.admin-menu {
+    margin-top: 0px !important;
+    padding-top: 29px;
+}
+
+body.admin-menu
+
 body #highlighted .big-title {
   font-size: 0;
 }
