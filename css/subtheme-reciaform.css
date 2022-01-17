@@ -75,7 +75,7 @@ body #highlighted .big-title::after {
   justify-content: end;
 }
 
-.inframe .page-wrapper{
+.inframe #page-wrapper{
   height:100%;
 }
 
