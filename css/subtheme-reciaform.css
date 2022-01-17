@@ -7,10 +7,6 @@
   --r-dark-grey: #4a5568;
 }
 
-html,body{
-  height:100%;
-}
-
 body {
   --c-primary: var(--r-blue);
   --c-bd-primary: var(--r-blue);
@@ -73,6 +69,10 @@ body #highlighted .big-title::after {
 #homeback{
   display: flex;
   justify-content: end;
+}
+
+.inframe .page-wrapper{
+  height:100%;
 }
 
 .panel-separator{
