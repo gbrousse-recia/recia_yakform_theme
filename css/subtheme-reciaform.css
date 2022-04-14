@@ -91,7 +91,7 @@ body #highlighted .big-title::after {
 }
 
 /** In iframe **/
-body.inframe #page, body.inframe #page-wrapper, body.inframe #main-wrapper, body.inframe #footer-wrapper {
+body.inframe, body.inframe #page, body.inframe #page-wrapper, body.inframe #main-wrapper, body.inframe #footer-wrapper {
   background: transparent !important;
 }
 
