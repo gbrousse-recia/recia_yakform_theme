@@ -84,12 +84,17 @@ body #highlighted .big-title::after {
   justify-content: end;
 }
 
-.inframe #page-wrapper{
-  height:100%;
-}
-
 .panel-separator{
   display:block;
   margin: 10px auto;
   border-bottom: 5px solid var(--c-bg-lite2);
+}
+
+/** In iframe **/
+body.inframe #page, body.inframe #page-wrapper, body.inframe #main-wrapper, body.inframe #footer-wrapper {
+  background: transparent !important;
+}
+
+.inframe #page-wrapper{
+  height:100%;
 }
