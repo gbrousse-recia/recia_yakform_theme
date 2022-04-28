@@ -7,5 +7,3 @@ core = 7.x
 base theme = yaktheme
 
 stylesheets[all][] = css/subtheme-reciaform.css
-
-scripts[] = js/postMessage-resize-iframe-in-parent.js
