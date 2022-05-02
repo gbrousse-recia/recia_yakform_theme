@@ -23,7 +23,8 @@ body {
   --c-link-hover: var(--r-dark-grey);
 
   /* forms */
-  --c-bg-checked : var(--c-primary);
+  --c-bg-checked: var(--c-primary);
+  --c-bd-input: var(--c-primary);
 
   /* header */
   --c-bg-navbar: var(--g1);
