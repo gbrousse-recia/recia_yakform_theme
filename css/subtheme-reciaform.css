@@ -19,6 +19,8 @@ body {
 
   /* liens */
   --c-link: var(--c-primary);
+  --c-link-hover: var(--r-dark-grey);
+
 
   /* header */
   --c-bg-navbar: var(--g1);
