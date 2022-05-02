@@ -24,7 +24,7 @@ body {
 
   /* forms */
   --c-bg-checked: var(--c-primary);
-  --c-bd-input: var(--c-primary);
+  --c-bd-active: var(--c-primary);
 
   /* header */
   --c-bg-navbar: var(--g1);
