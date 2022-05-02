@@ -91,7 +91,7 @@ body #highlighted .big-title::after {
   width: auto;
   max-width: 800px;
   background: var(--c-bg-lite);
-  padding: 1rem 2rem;
+  padding: 2rem;
   border-top: 2px solid var(--c-bd-page);
 }
 
@@ -102,7 +102,7 @@ body #highlighted .big-title::after {
 
 .panel-separator{
   display:block;
-  margin: 10px auto;
+  margin: 2rem auto;
   border-bottom: 3px solid var(--c-bg-lite2);
 }
 
