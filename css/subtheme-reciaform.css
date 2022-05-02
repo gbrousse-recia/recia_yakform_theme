@@ -107,6 +107,10 @@ body #highlighted .big-title::after {
 }
 
 /** In iframe **/
+html:has(.inframe),body.inframe{
+  height:auto;
+}
+
 body.inframe, body.inframe #page, body.inframe #page-wrapper, body.inframe #main-wrapper, body.inframe #footer-wrapper {
   background: transparent !important;
 }
