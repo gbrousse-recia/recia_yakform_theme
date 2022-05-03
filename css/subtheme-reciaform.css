@@ -9,7 +9,7 @@
   --r-grey:#A5A5A5;
   --r-light-grey:#e2e8f0;
   --r-dark-grey: #303030;
-  --r-fonts: 'Roboto', sans-serif;
+  --r-fonts: 'Source Sans Pro', sans-serif;;
   --r-title-fonts: var(--r-fonts);
   font-family: var(--r-fonts);
 }
