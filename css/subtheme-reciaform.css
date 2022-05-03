@@ -9,6 +9,7 @@
   --r-grey:#A5A5A5;
   --r-light-grey:#e2e8f0;
   --r-dark-grey: #303030;
+  font-family: 'Roboto', sans-serif;
 }
 
 html,body{
@@ -49,6 +50,7 @@ body {
   /* alert */
   --c-bg-accent: var(--r-blue);
   --c-text-accent: var(--r-light-grey);
+
 }
 
 
