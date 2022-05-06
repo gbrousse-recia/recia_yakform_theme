@@ -1,5 +1,5 @@
 <?php
-function yaktheme_reciaform_preprocess_page(&$variables) {
+function yakthemeReciaform_preprocess_page(&$variables) {
     switch($_SERVER['SERVER_NAME']){
         //test cases
         case 'test-lycee.giprecia.net':
