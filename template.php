@@ -1,6 +1,6 @@
 <?php
 function yaktheme_recia_preprocess_page(&$variables) {
-    
+    echo $_SERVER['SERVER_NAME'];
     switch($_SERVER['SERVER_NAME']){
         //test cases
         case 'test-lycee.giprecia.net':
