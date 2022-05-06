@@ -1,5 +1,5 @@
-name = Yaktheme reciaform
-description = « reciaform » subtheme for Yakforms.
+name = Yaktheme recia
+description = « recia » subtheme for Yakforms.
 package = Core
 version = VERSION
 core = 7.x

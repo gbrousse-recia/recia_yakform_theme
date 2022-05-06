@@ -13,7 +13,6 @@ function yaktheme_recia_preprocess_page(&$variables) {
         case 'ent.recia.fr':
             drupal_add_css(drupal_get_path('theme', 'yaktheme_recia') .'css/sub/recia.css');
             break;
-
     }
     $variables['styles'] = drupal_get_css();
 }
