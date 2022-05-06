@@ -1,0 +1,8 @@
+@import url('/commun/fonts/Source_Sans_Pro/SourceSansPro.css');
+
+*{
+    --t-primary: #2d2f80;
+    --t-light-grey: #e2e8f0;
+    --t-dark-grey: #303030;
+    --t-fonts: 'Source Sans Pro', sans-serif;
+}

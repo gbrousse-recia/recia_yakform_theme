@@ -3,15 +3,13 @@
 
 /* theme */
 *{
-  /*--r-blue: #2F3291;*/
-  --r-blue: #25B2F3;
-  --r-green: #8E9120;
-  --r-grey:#A5A5A5;
-  --r-light-grey:#e2e8f0;
-  --r-dark-grey: #303030;
-  --r-fonts: 'Roboto', sans-serif;;
-  --r-title-fonts: var(--r-fonts);
-  font-family: var(--r-fonts);
+  --r-blue: var(--t-primary,#2F3291);
+  --r-green: var(--t-logo-secondary,#8E9120);
+  --r-grey:#979797;
+  --r-light-grey:var(--t-light-grey,#e2e8f0);
+  --r-dark-grey: var(--t-dark-grey,#303030);
+  --r-fonts: var(--t-fonts,'Roboto', sans-serif);
+  --r-title-fonts: var(--t-title-fonts,--r-fonts);
 }
 
 html,body{
@@ -53,9 +51,8 @@ body {
   --c-bg-accent: var(--r-blue);
   --c-text-accent: var(--r-light-grey);
 
+  font-family: var(--r-fonts);
 }
-
-
 
 html body.admin-menu {
     margin-top: 0px !important;
