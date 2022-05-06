@@ -5,14 +5,14 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
     switch($_SERVER['SERVER_NAME']){
         //test cases
         case 'test-lycee.giprecia.net':
-            $domainCss = path_to-theme().'css/sub/ent.css';
+            $domainCss = path_to_theme().'css/sub/ent.css';
             break;
         case 'test-clg18.giprecia.net':
-            $domainCss = path_to-theme().'css/sub/recia.css';
+            $domainCss = path_to_theme().'css/sub/recia.css';
             break;
         //prod cases
         case 'ent.recia.fr':
-            $domainCss = path_to-theme().'css/sub/recia.css';
+            $domainCss = path_to_theme().'css/sub/recia.css';
             break;
     }
     if($domainCss!=''){
