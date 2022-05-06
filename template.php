@@ -14,4 +14,5 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
             break;
     }
     $variables['styles'] = drupal_get_css();
+    print_r($variables['styles']);
 }
