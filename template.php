@@ -19,7 +19,7 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
             break;
     }
     if($domainCss!=''){
-        echo 'domain css defined'.PHP_EOL;
+        echo 'domain css defined : '.$domainCss.PHP_EOL;
         $options = array(
         'group' => CSS_THEME,
         'preprocess' => FALSE,
