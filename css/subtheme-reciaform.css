@@ -114,6 +114,10 @@ body #highlighted .big-title::after {
   border-bottom: 3px solid var(--c-bg-lite2);
 }
 
+.form-type-managed-file .file-widget::before, .form-item .form-managed-file::before {
+  color: var(--t-light-grey);
+}
+
 /** In iframe **/
 
 body.inframe, body.inframe #page, body.inframe #page-wrapper, body.inframe #main-wrapper, body.inframe #footer-wrapper {
