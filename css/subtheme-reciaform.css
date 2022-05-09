@@ -35,7 +35,7 @@ body {
   --c-txt-navbar: var(--r-blue);
 
   --c-bg-navbar-dd: transparent;
-  --c-txt-navbar-dd: var(--r-grey);
+  --c-txt-navbar-dd: var(--r-dark-grey);
   --c-bg-navbar-dd-active: var(--r-light-grey);
 
   /* BG */
