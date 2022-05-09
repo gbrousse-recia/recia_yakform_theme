@@ -118,6 +118,10 @@ body #highlighted .big-title::after {
   background-color: var(--c-txt-file);
 }
 
+#sidebar-first #help-toggle:not(:checked) + label{
+  background-color: var(--c-bg);
+}
+
 /** In iframe **/
 
 body.inframe, body.inframe #page, body.inframe #page-wrapper, body.inframe #main-wrapper, body.inframe #footer-wrapper {
