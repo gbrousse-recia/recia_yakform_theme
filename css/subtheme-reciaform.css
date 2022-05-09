@@ -115,7 +115,7 @@ body #highlighted .big-title::after {
 }
 
 .form-type-managed-file .file-widget::before, .form-item .form-managed-file::before {
-  color: var(--t-light-grey);
+  background-color: var(--t-light-grey);
 }
 
 /** In iframe **/
