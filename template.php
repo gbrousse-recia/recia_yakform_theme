@@ -1,5 +1,6 @@
 <?php
 function yaktheme_reciaform_preprocess_page(&$variables) {
+    echo '<!--'.$_SERVER['SERVER_NAME'].'-->';
     $domainCss = '';
     switch($_SERVER['SERVER_NAME']){
         //test cases
