@@ -9,7 +9,7 @@
   --r-light-grey:#e2e8f0;
   --r-dark-grey: var(--t-dark-grey,#303030);
   --r-fonts: var(--t-fonts,'Roboto', sans-serif);
-  --r-title-fonts: var(--t-title-fonts,--r-fonts);
+  --r-title-fonts: var(--t-title-fonts,var(--r-fonts));
   font-family: var(--r-fonts);
 }
 
