@@ -10,6 +10,7 @@
   --r-dark-grey: var(--t-dark-grey,#303030);
   --r-fonts: var(--t-fonts,'Roboto', sans-serif);
   --r-title-fonts: var(--t-title-fonts,--r-fonts);
+  font-family: var(--r-fonts);
 }
 
 html,body{
