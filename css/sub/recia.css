@@ -35,7 +35,11 @@
 }
 
 #recia-footer-wrapper .recia-footer-coord img{
-    width: 70px;
+    height: 100px;
+    width: auto;
+}
+#recia-footer-wrapper .recia-footer-coord p{
+    margin-left: 15px;
 }
 
 #recia_footer-wrapper .recia-footer-mention{
