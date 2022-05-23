@@ -23,7 +23,8 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
                 'path' => path_to_theme().'/images/logoRecia.png', 
                 'alt' => 'GIP Recia',
                 'title' => 'Visitez le site du GIP Recia',
-                'width' => '70'
+                'width' => '70',
+                'height' => '70'
             ]);
             $variables['recia_footer']=theme('recia_footer_gip',['image'=>$footerImage]);
             break;
