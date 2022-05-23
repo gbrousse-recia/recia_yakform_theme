@@ -25,7 +25,7 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
                 'alt' => 'GIP Recia',
                 'title' => 'Visitez le site du GIP Recia'
             ]);*/
-            $variables['recia_footer']=theme('recia_footer_gip',['image'=>$footerImage]);
+            //$variables['recia_footer']=theme('recia_footer_gip',['image'=>$footerImage]);
             break;
         //prod cases
         case 'ent.recia.fr':
