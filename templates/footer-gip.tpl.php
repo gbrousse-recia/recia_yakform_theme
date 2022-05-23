@@ -1,5 +1,5 @@
 <div id="recia-footer">
-    <img src="<?= path_to_theme(); ?>/imgages/logoRecia.png" alt="" loading="lazy" height="70">
+    <?= $image ?>
     <p class="footer-contact mt-3 hidden-pod"><span class="footer-contact-title"></span><br>
         151 rue de la Juine<br>
         45160 Olivet - France<br>
