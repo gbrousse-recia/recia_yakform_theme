@@ -219,11 +219,6 @@
   </div></div> <!-- /#main, /#main-wrapper -->
 
   <div id="footer-wrapper"><div class="section">
-    <?php if ($recia_footer): ?>
-      <div id="recia-footer" class="clearfix">
-        <?= $recia_footer ?>
-      </div> <!-- /#footer -->
-    <?php endif; ?>
     <?php if ($page['footer']): ?>
       <div id="footer" class="clearfix">
         <?php print render($page['footer']); ?>
@@ -233,3 +228,9 @@
   </div></div> <!-- /.section, /#footer-wrapper -->
 
 </div></div> <!-- /#page, /#page-wrapper -->
+<?php if ($recia_footer): ?>
+  <div id="recia-footer" class="clearfix">
+    <div><?= $recia_footer ?></div>
+    <div><a href="https://yakforms.org">Powered by Yakforms</a></div>
+  </div> <!-- /#footer -->
+<?php endif; ?>
