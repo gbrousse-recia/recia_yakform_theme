@@ -12,6 +12,7 @@ function yaktheme_reciaform_theme(){
 function yaktheme_reciaform_preprocess_page(&$variables) {
     $domainCss = '';
     $variables['recia_footer']=false;
+    $variables['yakform_reciaform_path']=path_to_theme();
     switch($_SERVER['SERVER_NAME']){
         //test cases
         case 'test-lycee.giprecia.net':
