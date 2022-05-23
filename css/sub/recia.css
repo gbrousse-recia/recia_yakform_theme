@@ -16,9 +16,6 @@
 
 #recia-footer a{
     color:var(--r-light-grey);
-    padding: 0;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .inframe #recia-footer{
@@ -27,6 +24,9 @@
 
 #recia-footer-wrapper {
     display: flex;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #recia-footer-wrapper .recia-footer-coord{
