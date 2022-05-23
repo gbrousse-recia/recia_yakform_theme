@@ -134,6 +134,10 @@ body #highlighted .big-title::after {
   text-align: left;
 }
 
+#recia_footer > div:first-child > img{
+  width: 70px;
+}
+
 #recia_footer > div:last-child{
   text-align: right;
 }
