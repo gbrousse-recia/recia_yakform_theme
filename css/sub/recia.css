@@ -7,6 +7,16 @@
     --t-fonts: 'Source Sans Pro', sans-serif;
 }
 
+body {
+    /* header */
+    --c-bg-navbar: var(--r-blue);
+    --c-txt-navbar: var(--r-light-grey);
+  
+    --c-bg-navbar-dd: transparent;
+    --c-txt-navbar-dd: var(--r-light-grey);
+    --c-bg-navbar-dd-active: var(--r-dark-grey);
+  }
+
 /** Footer **/
 #recia-footer{
     background-color: var(--r-dark-grey);
