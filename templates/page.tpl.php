@@ -219,6 +219,11 @@
   </div></div> <!-- /#main, /#main-wrapper -->
 
   <div id="footer-wrapper"><div class="section">
+    <?php if ($recia_footer): ?>
+      <div id="recia-footer" class="clearfix">
+        <?= $recia_footer ?>
+      </div> <!-- /#footer -->
+    <?php endif; ?>
     <?php if ($page['footer']): ?>
       <div id="footer" class="clearfix">
         <?php print render($page['footer']); ?>

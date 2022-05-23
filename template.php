@@ -1,14 +1,22 @@
 <?php
+
+function yaktheme_reciaform_theme(){
+    return [
+        'recia_footer_gip' => [
+            'template' => 'footer-gip',
+        ]
+    ];
+}
+
 function yaktheme_reciaform_preprocess_page(&$variables) {
-    echo '<!--'.$_SERVER['SERVER_NAME'].'-->';
     $domainCss = '';
+    $variables['recia_footer']=false;
     switch($_SERVER['SERVER_NAME']){
         //test cases
         case 'test-lycee.giprecia.net':
-            $domainCss = path_to_theme().'/css/sub/ent.css';
-            break;
         case 'test-clg18.giprecia.net':
             $domainCss = path_to_theme().'/css/sub/recia.css';
+            $variables['recia_footer']=theme('recia_footer_gip')
             break;
         //prod cases
         case 'ent.recia.fr':
