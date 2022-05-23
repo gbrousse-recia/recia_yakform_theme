@@ -19,14 +19,14 @@ display: flex;
 }
 
 
-#recia_footer > div:first-child{
+#recia_footer > div:first-of-type{
 text-align: left;
 }
 
-#recia_footer > div:first-child > img{
+#recia_footer > div:first-of-type > img{
 width: 70px;
 }
 
-#recia_footer > div:last-child{
+#recia_footer > div:last-of-type{
 text-align: right;
 }
