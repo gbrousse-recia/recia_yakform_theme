@@ -40,6 +40,9 @@
     width: auto;
 }
 #recia-footer-wrapper .recia-footer-coord p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     margin-left: 15px;
 }
 
