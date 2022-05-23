@@ -4,6 +4,7 @@ function yaktheme_reciaform_theme(){
     return [
         'recia_footer_gip' => [
             'template' => 'footer-gip',
+            'path'=> path_to_theme().'/templates'
         ]
     ];
 }
