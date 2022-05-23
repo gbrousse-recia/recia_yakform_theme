@@ -16,7 +16,7 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
         case 'test-lycee.giprecia.net':
         case 'test-clg18.giprecia.net':
             $domainCss = path_to_theme().'/css/sub/recia.css';
-            $variables['recia_footer']=theme('recia_footer_gip')
+            $variables['recia_footer']=theme('recia_footer_gip');
             break;
         //prod cases
         case 'ent.recia.fr':
