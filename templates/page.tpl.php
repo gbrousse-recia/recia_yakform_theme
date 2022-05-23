@@ -229,5 +229,5 @@
 
 </div></div> <!-- /#page, /#page-wrapper -->
 <?php if ($recia_footer): ?>
-
+<?= $recia_footer ?></div>
 <?php endif; ?>

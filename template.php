@@ -19,11 +19,12 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
         case 'test-lycee.giprecia.net':
         case 'test-clg18.giprecia.net':
             $domainCss = path_to_theme().'/css/sub/recia.css';
-            $footerImage = theme('image',[
+            $footerImage = 'test';
+            /*$footerImage = theme('image',[
                 'path' => path_to_theme().'/images/logoRecia.png', 
                 'alt' => 'GIP Recia',
                 'title' => 'Visitez le site du GIP Recia'
-            ]);
+            ]);*/
             $variables['recia_footer']=theme('recia_footer_gip',['image'=>$footerImage]);
             break;
         //prod cases
