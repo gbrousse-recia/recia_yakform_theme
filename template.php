@@ -41,5 +41,5 @@ function yaktheme_reciaform_preprocess_page(&$variables) {
         drupal_add_css($domainCss, $options);
         $variables['styles'] = drupal_get_css();
     }
-    print_r($variables);
+    //print_r($variables);
 }
