@@ -9,12 +9,16 @@
 
 /** Footer **/
 #recia-footer{
-background-color: var(--r-dark-grey);
-color:var(--r-light-grey);
+    background-color: var(--r-dark-grey);
+    color:var(--r-light-grey);
+    padding: .5rem 0;
 }
 
 #recia-footer a{
     color:var(--r-light-grey);
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .inframe #recia-footer{
