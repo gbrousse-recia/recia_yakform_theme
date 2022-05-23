@@ -14,19 +14,25 @@ color:var(--r-light-grey);
 display: flex;
 }
 
+#recia-footer a{
+    color:var(--r-light-grey);
+}
+
 .inframe #recia-footer{
     display:none;
 }
 
 
 #recia-footer .recia-footer-coord{
-text-align: left;
+    flex:1;
+    text-align: left;
 }
 
 #recia-footer .recia-footer-coord img{
-width: 70px;
+    width: 70px;
 }
 
 #recia_footer .recia-footer-mention{
-text-align: right;
+    flex:1;
+    text-align: right;
 }
