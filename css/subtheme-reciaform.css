@@ -3,14 +3,13 @@
 
 /* theme */
 *{
-  /*--r-blue: #2F3291;*/
-  --r-blue: #25B2F3;
-  --r-green: #8E9120;
-  --r-grey:#A5A5A5;
+  --r-blue: var(--t-primary,#2F3291);
+  --r-green: var(--t-logo-secondary,#8E9120);
+  --r-grey:var(--t-light-grey,#979797);
   --r-light-grey:#e2e8f0;
-  --r-dark-grey: #303030;
-  --r-fonts: 'Roboto', sans-serif;;
-  --r-title-fonts: var(--r-fonts);
+  --r-dark-grey: var(--t-dark-grey,#303030);
+  --r-fonts: var(--t-fonts,'Roboto', sans-serif);
+  --r-title-fonts: var(--t-title-fonts,var(--r-fonts));
   font-family: var(--r-fonts);
 }
 
@@ -37,7 +36,7 @@ body {
   --c-txt-navbar: var(--r-blue);
 
   --c-bg-navbar-dd: transparent;
-  --c-txt-navbar-dd: var(--r-grey);
+  --c-txt-navbar-dd: var(--r-dark-grey);
   --c-bg-navbar-dd-active: var(--r-light-grey);
 
   /* BG */
@@ -53,9 +52,8 @@ body {
   --c-bg-accent: var(--r-blue);
   --c-text-accent: var(--r-light-grey);
 
+  font-family: var(--r-fonts);
 }
-
-
 
 html body.admin-menu {
     margin-top: 0px !important;
@@ -82,7 +80,7 @@ body #highlighted .big-title::before {
   content: "Recia";
   font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
   font-size: 42px;
-  color: var(--r-blue);
+  color: var(--c-txt-navbar);
 }
 body #highlighted .big-title::after {
   content: "forms";
@@ -97,7 +95,7 @@ body #highlighted .big-title::after {
   max-width: 800px;
 }
 
-.front #main-wrapper #main{
+.front #main-wrapper #main, #main{
   margin: 2rem auto 1rem;
   width: auto;
   max-width: 800px;
@@ -115,6 +113,14 @@ body #highlighted .big-title::after {
   display:block;
   margin: 2rem auto;
   border-bottom: 3px solid var(--c-bg-lite2);
+}
+
+.form-type-managed-file .file-widget::before, .form-item .form-managed-file::before {
+  background-color: var(--c-txt-file);
+}
+
+#sidebar-first #help-toggle:not(:checked) + label{
+  background-color: var(--c-bg);
 }
 
 /** In iframe **/
