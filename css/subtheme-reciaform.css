@@ -80,7 +80,7 @@ body #highlighted .big-title::before {
   content: "Recia";
   font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
   font-size: 42px;
-  color: var(--r-blue);
+  color: var(--c-txt-navbar);
 }
 body #highlighted .big-title::after {
   content: "forms";
