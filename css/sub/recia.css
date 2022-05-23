@@ -21,6 +21,7 @@ body {
 /** header **/
 #highlighted .button{
     background: var(--t-secondary);
+    border: 1px solid var(--t-primary);
 }
 
 /** Footer **/
