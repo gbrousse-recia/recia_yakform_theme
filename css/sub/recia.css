@@ -8,20 +8,25 @@
 }
 
 /** Footer **/
-#recia_footer{
-    background-color: var(--r-dark-grey);
-    color:var(--r-light-grey);
-    display: flex;
-  }
-  
-  #recia_footer > div:first-child{
-    text-align: left;
-  }
-  
-  #recia_footer > div:first-child > img{
-    width: 70px;
-  }
-  
-  #recia_footer > div:last-child{
-    text-align: right;
-  }
+#recia-footer{
+background-color: var(--r-dark-grey);
+color:var(--r-light-grey);
+display: flex;
+}
+
+.inframe #recia-footer{
+    display:none;
+}
+
+
+#recia_footer > div:first-child{
+text-align: left;
+}
+
+#recia_footer > div:first-child > img{
+width: 70px;
+}
+
+#recia_footer > div:last-child{
+text-align: right;
+}
