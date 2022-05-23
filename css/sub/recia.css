@@ -36,3 +36,24 @@ display: flex;
     flex:1;
     text-align: right;
 }
+
+@media (min-width: 576px) {
+    #recia-footer {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    #recia-footer {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    #recia-footer {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    #recia-footer {
+        max-width: 1140px;
+    }
+}
