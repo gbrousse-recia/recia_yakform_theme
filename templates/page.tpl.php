@@ -229,8 +229,5 @@
 
 </div></div> <!-- /#page, /#page-wrapper -->
 <?php if ($recia_footer): ?>
-  <div id="recia-footer" class="clearfix">
-    <div><?= $recia_footer ?></div>
-    <div><a href="https://yakforms.org">Powered by Yakforms</a></div>
-  </div> <!-- /#footer -->
+<?= $recia_footer ?></div>
 <?php endif; ?>
