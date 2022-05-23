@@ -30,6 +30,7 @@
 }
 
 #recia-footer-wrapper .recia-footer-coord{
+    display: flex;
     flex:1;
     text-align: left;
 }
