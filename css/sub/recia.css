@@ -38,22 +38,22 @@ display: flex;
 }
 
 @media (min-width: 576px) {
-    #recia-footer {
+    #recia-footer-wrapper {
         max-width: 540px;
     }
 }
 @media (min-width: 768px) {
-    #recia-footer {
+    #recia-footer-wrapper {
         max-width: 720px;
     }
 }
 @media (min-width: 992px) {
-    #recia-footer {
+    #recia-footer-wrapper {
         max-width: 960px;
     }
 }
 @media (min-width: 1200px) {
-    #recia-footer {
+    #recia-footer-wrapper {
         max-width: 1140px;
     }
 }
