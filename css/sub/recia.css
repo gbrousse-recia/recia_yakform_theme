@@ -11,7 +11,6 @@
 #recia-footer{
 background-color: var(--r-dark-grey);
 color:var(--r-light-grey);
-display: flex;
 }
 
 #recia-footer a{
@@ -22,17 +21,20 @@ display: flex;
     display:none;
 }
 
+#recia-footer-wrapper {
+    display: flex;
+}
 
-#recia-footer .recia-footer-coord{
+#recia-footer-wrapper .recia-footer-coord{
     flex:1;
     text-align: left;
 }
 
-#recia-footer .recia-footer-coord img{
+#recia-footer-wrapper .recia-footer-coord img{
     width: 70px;
 }
 
-#recia_footer .recia-footer-mention{
+#recia_footer-wrapper .recia-footer-mention{
     flex:1;
     text-align: right;
 }
